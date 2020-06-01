@@ -1,0 +1,26 @@
+{
+  "name": "spux-shim",
+  "version": "0.0.1",
+  "description": "single page user experience shim",
+  "main": "index.js",
+  "module": "web_modules/spux-shim.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spux/spux-shim.git"
+  },
+  "keywords": [
+    "spux"
+  ],
+  "author": "Melvin Carvalho <melvincarvalho@gmail.com> (https://melvincarvalho.com/#me)",
+  "bugs": {
+    "url": "https://github.com/spux/spux-shim/issues"
+  },
+  "homepage": "https://github.com/spux/spux-shim#readme",
+  "dependencies": {
+    "htm": "^3.0.4",
+    "preact": "^10.4.1"
+  }
+}
