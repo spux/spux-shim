@@ -1,6 +1,6 @@
 {
   "name": "spux-shim",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "single page user experience shim",
   "main": "index.js",
   "module": "web_modules/spux-shim.js",
