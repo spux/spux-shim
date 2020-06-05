@@ -37,8 +37,15 @@
 })()
 
 var viewScript
+var el = document.getElementById('data')
 
-if (di && di.data && di.data[0] && di.data[0]['@view']) {
+if (
+  document &&
+  document.getElementById('data') &&
+  document.getElementById('data').view
+) {
+  viewScript = document.getElementById('data').view
+} else if (di && di.data && di.data[0] && di.data[0]['@view']) {
   viewScript = di.data[0]['@view']
 } else if (window && window.location && window.location.href) {
   viewScript = window.location.href.replace('.html', '').concat('.js')
