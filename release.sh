@@ -2,7 +2,7 @@
 
 git add .
 git commit -m "$1"
-git push origin master
+git push origin gh-pages
 
 npm version patch -m "Release version %s of the npm package."
 
