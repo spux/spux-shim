@@ -51,6 +51,7 @@ if (
   viewScript = window.location.href.replace('.html', '').concat('.js')
 }
 
+// TODO: catch 404
 if (viewScript) {
   import(viewScript)
 }
