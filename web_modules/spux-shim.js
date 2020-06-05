@@ -42,9 +42,9 @@ var el = document.getElementById('data')
 if (
   document &&
   document.getElementById('data') &&
-  document.getElementById('data').view
+  document.getElementById('data').getAttribute('view')
 ) {
-  viewScript = document.getElementById('data').view
+  viewScript = document.getElementById('data').getAttribute('view')
 } else if (di && di.data && di.data[0] && di.data[0]['@view']) {
   viewScript = di.data[0]['@view']
 } else if (window && window.location && window.location.href) {
